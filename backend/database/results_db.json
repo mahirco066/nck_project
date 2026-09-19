@@ -1,0 +1,169 @@
+{
+  "settings": {
+    "collegeNameAr": "كلية شمال كردفان",
+    "collegeNameEn": "North Kordofan College",
+    "academicYear": "2025 / 2026م",
+    "adminPasswordHash": "admin123"
+  },
+  "departments": [
+    {"id": "CS", "name": "علوم الحاسوب وتكنولوجيا المعلومات", "code": "CS-IT"},
+    {"id": "BA", "name": "العلوم الإدارية والمالية والمحاسبة", "code": "BA-ACC"},
+    {"id": "NURSING", "name": "التمريض والعلوم الصحية التطبيقية", "code": "NURS"},
+    {"id": "ENG", "name": "الهندسة والتقانة (كهرباء ومدني)", "code": "ENG-TECH"},
+    {"id": "EDU", "name": "التربية واللغات والعلوم الإنسانية", "code": "EDU-LANG"}
+  ],
+  "semesters": [
+    {"id": 1, "name": "الفصل الدراسي الأول"},
+    {"id": 2, "name": "الفصل الدراسي الثاني"},
+    {"id": 3, "name": "الفصل الدراسي الثالث"},
+    {"id": 4, "name": "الفصل الدراسي الرابع"},
+    {"id": 5, "name": "الفصل الدراسي الخامس"},
+    {"id": 6, "name": "الفصل الدراسي السادس"},
+    {"id": 7, "name": "الفصل الدراسي السابع"},
+    {"id": 8, "name": "الفصل الدراسي الثامن"}
+  ],
+  "results": [
+    {
+      "id": "res-001",
+      "student_id": "2023001",
+      "student_name": "محمد أحمد إبراهيم عثمان",
+      "department_id": "CS",
+      "department_name": "علوم الحاسوب وتكنولوجيا المعلومات",
+      "semester_id": 4,
+      "semester_name": "الفصل الدراسي الرابع",
+      "academic_year": "2025/2026",
+      "semester_gpa": 3.65,
+      "cumulative_gpa": 3.58,
+      "total_credit_hours": 18,
+      "passed_credit_hours": 18,
+      "academic_status": "ناجح بتقدير ممتاز",
+      "notes": "تم اعتماد النتيجة من أمانة الشؤون العلمية",
+      "courses": [
+        {"course_code": "CS201", "course_name": "تراكيب البيانات والخوارزميات", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 91, "status": "ناجح"},
+        {"course_code": "CS202", "course_name": "هندسة البرمجيات وتصميم النظم", "credit_hours": 3, "grade": "A+", "points": 4.0, "score": 95, "status": "ناجح"},
+        {"course_code": "CS203", "course_name": "نظم إدارة قواعد البيانات (SQL)", "credit_hours": 3, "grade": "B+", "points": 3.5, "score": 84, "status": "ناجح"},
+        {"course_code": "IT204", "course_name": "شبكات الحاسوب والاتصالات", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 88, "status": "ناجح"},
+        {"course_code": "MATH205", "course_name": "الرياضيات المتقطعة والإحصاء", "credit_hours": 3, "grade": "B", "points": 3.0, "score": 78, "status": "ناجح"},
+        {"course_code": "HUM206", "course_name": "مهارات الاتصال والأخلاقيات الأكاديمية", "credit_hours": 3, "grade": "A+", "points": 4.0, "score": 96, "status": "ناجح"}
+      ],
+      "original_pdf_url": "/storage/uploads/CS_Semester4_Final_2026.pdf",
+      "published_at": "2026-03-10T10:00:00Z"
+    },
+    {
+      "id": "res-002",
+      "student_id": "2023002",
+      "student_name": "سارة عبد الله محمد أحمد",
+      "department_id": "BA",
+      "department_name": "العلوم الإدارية والمالية والمحاسبة",
+      "semester_id": 4,
+      "semester_name": "الفصل الدراسي الرابع",
+      "academic_year": "2025/2026",
+      "semester_gpa": 3.82,
+      "cumulative_gpa": 3.75,
+      "total_credit_hours": 18,
+      "passed_credit_hours": 18,
+      "academic_status": "ناجح - مرتبة الشرف الأولى",
+      "notes": "الأولى على الدفعة في إدارة الأعمال",
+      "courses": [
+        {"course_code": "ACC201", "course_name": "المحاسبة المالية المتقدمة", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 90, "status": "ناجح"},
+        {"course_code": "MGT202", "course_name": "إدارة الأعمال الاستراتيجية", "credit_hours": 3, "grade": "A+", "points": 4.0, "score": 97, "status": "ناجح"},
+        {"course_code": "ECO203", "course_name": "الاقتصاد الكلي والتحليلي", "credit_hours": 3, "grade": "A-", "points": 3.7, "score": 87, "status": "ناجح"},
+        {"course_code": "STAT204", "course_name": "الإحصاء التطبيقي في الأعمال", "credit_hours": 3, "grade": "B+", "points": 3.5, "score": 83, "status": "ناجح"},
+        {"course_code": "MIS205", "course_name": "نظم المعلومات الإدارية", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 92, "status": "ناجح"},
+        {"course_code": "ENG206", "course_name": "اللغة الإنجليزية للأعمال", "credit_hours": 3, "grade": "A+", "points": 4.0, "score": 94, "status": "ناجح"}
+      ],
+      "original_pdf_url": "/storage/uploads/BA_Semester4_Final_2026.pdf",
+      "published_at": "2026-03-10T10:00:00Z"
+    },
+    {
+      "id": "res-003",
+      "student_id": "2023003",
+      "student_name": "عثمان الطيب خالد النور",
+      "department_id": "CS",
+      "department_name": "علوم الحاسوب وتكنولوجيا المعلومات",
+      "semester_id": 4,
+      "semester_name": "الفصل الدراسي الرابع",
+      "academic_year": "2025/2026",
+      "semester_gpa": 3.15,
+      "cumulative_gpa": 3.08,
+      "total_credit_hours": 18,
+      "passed_credit_hours": 18,
+      "academic_status": "ناجح بتقدير جيد جداً",
+      "notes": "مستوفي متطلبات الفصل",
+      "courses": [
+        {"course_code": "CS201", "course_name": "تراكيب البيانات والخوارزميات", "credit_hours": 3, "grade": "B", "points": 3.0, "score": 75, "status": "ناجح"},
+        {"course_code": "CS202", "course_name": "هندسة البرمجيات وتصميم النظم", "credit_hours": 3, "grade": "B+", "points": 3.5, "score": 82, "status": "ناجح"},
+        {"course_code": "CS203", "course_name": "نظم إدارة قواعد البيانات (SQL)", "credit_hours": 3, "grade": "B", "points": 3.0, "score": 77, "status": "ناجح"},
+        {"course_code": "IT204", "course_name": "شبكات الحاسوب والاتصالات", "credit_hours": 3, "grade": "A-", "points": 3.7, "score": 86, "status": "ناجح"},
+        {"course_code": "MATH205", "course_name": "الرياضيات المتقطعة والإحصاء", "credit_hours": 3, "grade": "C+", "points": 2.5, "score": 68, "status": "ناجح"},
+        {"course_code": "HUM206", "course_name": "مهارات الاتصال والأخلاقيات الأكاديمية", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 90, "status": "ناجح"}
+      ],
+      "original_pdf_url": "/storage/uploads/CS_Semester4_Final_2026.pdf",
+      "published_at": "2026-03-10T10:00:00Z"
+    },
+    {
+      "id": "res-004",
+      "student_id": "2023004",
+      "student_name": "فاطمة الزهراء إدريس بابكر",
+      "department_id": "NURSING",
+      "department_name": "التمريض والعلوم الصحية التطبيقية",
+      "semester_id": 2,
+      "semester_name": "الفصل الدراسي الثاني",
+      "academic_year": "2025/2026",
+      "semester_gpa": 3.90,
+      "cumulative_gpa": 3.88,
+      "total_credit_hours": 17,
+      "passed_credit_hours": 17,
+      "academic_status": "ناجح بتقدير امتياز مع مرتبة الشرف",
+      "notes": "أداء سريري وأكاديمي متميز",
+      "courses": [
+        {"course_code": "NUR101", "course_name": "أساسيات التمريض السريري", "credit_hours": 4, "grade": "A+", "points": 4.0, "score": 98, "status": "ناجح"},
+        {"course_code": "ANAT102", "course_name": "علم التشريح ووظائف الأعضاء", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 92, "status": "ناجح"},
+        {"course_code": "PHARM103", "course_name": "مبادئ علم الأدوية والعقاقير", "credit_hours": 3, "grade": "A", "points": 4.0, "score": 89, "status": "ناجح"},
+        {"course_code": "MIC104", "course_name": "علم الأحياء الدقيقة والمناعة", "credit_hours": 3, "grade": "A+", "points": 4.0, "score": 96, "status": "ناجح"},
+        {"course_code": "BIO105", "course_name": "الكيمياء الحيوية الطبية", "credit_hours": 2, "grade": "A", "points": 4.0, "score": 90, "status": "ناجح"},
+        {"course_code": "ENG106", "course_name": "المصطلحات الطبية واللغة الإنجليزية", "credit_hours": 2, "grade": "A+", "points": 4.0, "score": 97, "status": "ناجح"}
+      ],
+      "original_pdf_url": "/storage/uploads/Nursing_Semester2_Final_2026.pdf",
+      "published_at": "2026-03-10T10:00:00Z"
+    }
+  ],
+  "uploaded_batches": [
+    {
+      "id": "batch-01",
+      "filename": "CS_Semester4_Final_2026.pdf",
+      "department_id": "CS",
+      "department_name": "علوم الحاسوب وتكنولوجيا المعلومات",
+      "semester_id": 4,
+      "semester_name": "الفصل الدراسي الرابع",
+      "academic_year": "2025/2026",
+      "students_count": 2,
+      "uploaded_at": "2026-03-10T09:30:00Z",
+      "file_url": "/storage/uploads/CS_Semester4_Final_2026.pdf"
+    },
+    {
+      "id": "batch-02",
+      "filename": "BA_Semester4_Final_2026.pdf",
+      "department_id": "BA",
+      "department_name": "العلوم الإدارية والمالية والمحاسبة",
+      "semester_id": 4,
+      "semester_name": "الفصل الدراسي الرابع",
+      "academic_year": "2025/2026",
+      "students_count": 1,
+      "uploaded_at": "2026-03-10T10:15:00Z",
+      "file_url": "/storage/uploads/BA_Semester4_Final_2026.pdf"
+    },
+    {
+      "id": "batch-03",
+      "filename": "Nursing_Semester2_Final_2026.pdf",
+      "department_id": "NURSING",
+      "department_name": "التمريض والعلوم الصحية التطبيقية",
+      "semester_id": 2,
+      "semester_name": "الفصل الدراسي الثاني",
+      "academic_year": "2025/2026",
+      "students_count": 1,
+      "uploaded_at": "2026-03-10T11:00:00Z",
+      "file_url": "/storage/uploads/Nursing_Semester2_Final_2026.pdf"
+    }
+  ]
+}
